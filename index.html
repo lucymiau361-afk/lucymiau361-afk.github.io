@@ -15,23 +15,13 @@
 body {
     margin: 0;
     min-height: 100vh;
-
     font-family: Arial, sans-serif;
-
     color: white;
     text-align: center;
 
     background:
-        radial-gradient(
-            circle at 20% 20%,
-            #392c68,
-            transparent 35%
-        ),
-        radial-gradient(
-            circle at 80% 80%,
-            #164b5b,
-            transparent 35%
-        ),
+        radial-gradient(circle at 20% 20%, #392c68, transparent 35%),
+        radial-gradient(circle at 80% 80%, #164b5b, transparent 35%),
         #080914;
 
     overflow-x: hidden;
@@ -40,18 +30,15 @@ body {
 .contenedor {
     width: 90%;
     max-width: 600px;
-
     margin: auto;
-
     padding: 50px 0;
 }
 
 .foto {
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
 
     border-radius: 50%;
-
     object-fit: cover;
 
     border: 3px solid white;
@@ -63,29 +50,25 @@ body {
 
 h1 {
     margin: 20px 0 5px;
-
     font-size: 32px;
 }
 
 .usuario {
     color: #aaaec5;
+    margin-bottom: 20px;
 }
 
 .frase {
     margin: 25px auto;
-
     max-width: 450px;
 
     font-size: 17px;
-
     line-height: 1.6;
 }
 
 .enlaces {
     display: flex;
-
     flex-direction: column;
-
     gap: 15px;
 }
 
@@ -95,20 +78,15 @@ h1 {
     padding: 20px;
 
     color: white;
-
     text-decoration: none;
 
-    background:
-        rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.08);
 
-    border:
-        1px solid
-        rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.15);
 
     border-radius: 18px;
 
     font-size: 17px;
-
     font-weight: bold;
 
     backdrop-filter: blur(10px);
@@ -118,17 +96,14 @@ h1 {
 
 .enlace:hover {
     transform: translateY(-4px);
-
-    background:
-        rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.15);
 }
 
 footer {
     margin-top: 40px;
-
     color: #777d9b;
-
     font-size: 13px;
+    line-height: 1.6;
 }
 
 </style>
@@ -139,9 +114,11 @@ footer {
 
 <div class="contenedor">
 
+    <!-- TU FOTO -->
+
     <img
         class="foto"
-        src="https://placehold.co/300x300"
+        src="011D3BF4-9D59-4BC5-BCE3-776D2886A4AF.jpeg"
         alt="Lucy"
     >
 
@@ -164,6 +141,7 @@ footer {
             class="enlace"
             href="https://www.tiktok.com/@idk.luuucy"
             target="_blank"
+            rel="noopener noreferrer"
         >
             🎵 TikTok
         </a>
@@ -172,6 +150,7 @@ footer {
             class="enlace"
             href="https://www.instagram.com/idk.luucy"
             target="_blank"
+            rel="noopener noreferrer"
         >
             📸 Instagram
         </a>
@@ -180,6 +159,7 @@ footer {
             class="enlace"
             href="https://discord.gg/HEMbT5CxD"
             target="_blank"
+            rel="noopener noreferrer"
         >
             💬 Discord
         </a>
@@ -188,6 +168,7 @@ footer {
             class="enlace"
             href="https://whatsapp.com/channel/0029Vb8Vg6k89incwkb49N1o"
             target="_blank"
+            rel="noopener noreferrer"
         >
             💚 Canal de WhatsApp
         </a>
@@ -196,6 +177,7 @@ footer {
             class="enlace"
             href="https://open.spotify.com/user/31tl5ovo2vtwtut4ellw3ekftbtm"
             target="_blank"
+            rel="noopener noreferrer"
         >
             🎧 Spotify
         </a>
@@ -203,13 +185,9 @@ footer {
     </div>
 
     <footer>
-
         ⚛️ Hecho con curiosidad científica.
-
         <br>
-
         © 2026 Lucy
-
     </footer>
 
 </div>
