@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lucy | Ciencia</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    color: white;
+    text-align: center;
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            #392c68,
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 80% 80%,
+            #164b5b,
+            transparent 35%
+        ),
+        #080914;
+
+    overflow-x: hidden;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 600px;
+
+    margin: auto;
+
+    padding: 50px 0;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 3px solid white;
+
+    box-shadow:
+        0 0 25px #a78bfa,
+        0 0 50px #67e8f9;
+}
+
+h1 {
+    margin: 20px 0 5px;
+
+    font-size: 32px;
+}
+
+.usuario {
+    color: #aaaec5;
+}
+
+.frase {
+    margin: 25px auto;
+
+    max-width: 450px;
+
+    font-size: 17px;
+
+    line-height: 1.6;
+}
+
+.enlaces {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.enlace {
+    display: block;
+
+    padding: 20px;
+
+    color: white;
+
+    text-decoration: none;
+
+    background:
+        rgba(255,255,255,0.08);
+
+    border:
+        1px solid
+        rgba(255,255,255,0.15);
+
+    border-radius: 18px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    backdrop-filter: blur(10px);
+
+    transition: 0.25s;
+}
+
+.enlace:hover {
+    transform: translateY(-4px);
+
+    background:
+        rgba(255,255,255,0.15);
+}
+
+footer {
+    margin-top: 40px;
+
+    color: #777d9b;
+
+    font-size: 13px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <img
+        class="foto"
+        src="https://placehold.co/300x300"
+        alt="Lucy"
+    >
+
+    <h1>
+        Lucy 🧬
+    </h1>
+
+    <div class="usuario">
+        @idk.luuucy
+    </div>
+
+    <p class="frase">
+        Somos polvo de estrellas intentando
+        entender las estrellas. 🌌
+    </p>
+
+    <div class="enlaces">
+
+        <a
+            class="enlace"
+            href="https://www.tiktok.com/@idk.luuucy"
+            target="_blank"
+        >
+            🎵 TikTok
+        </a>
+
+        <a
+            class="enlace"
+            href="https://www.instagram.com/idk.luucy"
+            target="_blank"
+        >
+            📸 Instagram
+        </a>
+
+        <a
+            class="enlace"
+            href="https://discord.gg/HEMbT5CxD"
+            target="_blank"
+        >
+            💬 Discord
+        </a>
+
+        <a
+            class="enlace"
+            href="https://whatsapp.com/channel/0029Vb8Vg6k89incwkb49N1o"
+            target="_blank"
+        >
+            💚 Canal de WhatsApp
+        </a>
+
+        <a
+            class="enlace"
+            href="https://open.spotify.com/user/31tl5ovo2vtwtut4ellw3ekftbtm"
+            target="_blank"
+        >
+            🎧 Spotify
+        </a>
+
+    </div>
+
+    <footer>
+
+        ⚛️ Hecho con curiosidad científica.
+
+        <br>
+
+        © 2026 Lucy
+
+    </footer>
+
+</div>
+
+</body>
+</html>
